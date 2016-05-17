@@ -1,21 +1,17 @@
-
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Mortascreen | Home</title>
 
-	<!--share this-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Mortascreen | Home</title>
+<!--share this-->
 	<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "98b23a36-c843-4dab-8274-562ef4f67cdc", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "98b23a36-c843-4dab-8274-562ef4f67cdc", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
 	
 	<link href="/css/oneColFixCtr.css" rel="stylesheet" type="text/css" />
 	<link href="/css/style.css" rel="stylesheet" type="text/css" />
 
 	<script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-27405722-1']);
   _gaq.push(['_setDomainName', 'mortascreen.co.uk']);
@@ -27,21 +23,20 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 	</script>
 	  
-	  <script type="text/javascript"
-    src="http://maps.google.com/maps/api/js?sensor=false">
-</script>
+	<script type="text/javascript"
+    	src="http://maps.google.com/maps/api/js?sensor=false">
+	</script>
 
-<script type="text/javascript">
-  function initialize() {
-    var position = new google.maps.LatLng(53.83441959503804,-1.7680585384368896 );
-    var myOptions = {
-      zoom: 16,
-      center: position,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+	<script type="text/javascript">
+  	function initialize() {
+    		var position = new google.maps.LatLng(53.83441959503804,-1.7680585384368896 );
+    		var myOptions = {
+      		zoom: 16,
+      		center: position,
+		 mapTypeId: google.maps.MapTypeId.ROADMAP};
+		 
     var map = new google.maps.Map(
         document.getElementById("map_canvas"),
         myOptions);
