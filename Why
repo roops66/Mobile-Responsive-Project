@@ -1,186 +1,158 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Mortascreen | Why</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Mortascreen | Why</title>
 
-	<!--share this-->
-	<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "98b23a36-c843-4dab-8274-562ef4f67cdc", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+    <!--share this-->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "98b23a36-c843-4dab-8274-562ef4f67cdc", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
 	
-	<link href="/css/oneColFixCtr.css" rel="stylesheet" type="text/css" />
-	<link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/oneColFixCtr.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript">
+    <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-27405722-1']);
-  _gaq.push(['_setDomainName', 'mortascreen.co.uk']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27405722-1']);
+      _gaq.push(['_setDomainName', 'mortascreen.co.uk']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
 
-	</script>
+    </script>
 	  
-	  <script type="text/javascript"
-    src="http://maps.google.com/maps/api/js?sensor=false">
-</script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
 
-<script type="text/javascript">
-  function initialize() {
-    var position = new google.maps.LatLng(53.83441959503804,-1.7680585384368896 );
-    var myOptions = {
-      zoom: 16,
-      center: position,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    var map = new google.maps.Map(
+    <script type="text/javascript">
+      function initialize() {
+        var position = new google.maps.LatLng(53.83441959503804,-1.7680585384368896 );
+        var myOptions = {
+        zoom: 16,
+        center: position,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        
+        var map = new google.maps.Map(
         document.getElementById("map_canvas"),
         myOptions);
  
-    var marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
         position: position,
         map: map,
         title:"Millennium"
-    }); 
+        }); 
  
-    var contentString = 'Millennium';
-    var infowindow = new google.maps.InfoWindow({
+        var contentString = 'Millennium';
+        var infowindow = new google.maps.InfoWindow({
         content: contentString
-    });
+        });
  
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map,marker);
-    });
+        google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+        });
  
-  }
-
-
-
-</script>
+      }
+    </script>
 	  
-	
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48932998-5', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-48932998-5', 'auto');
+      ga('send', 'pageview');
 
-</script>
-	
+    </script>
 </head>
 
 <body onload="initialize()">
-	
+  <!-- EGE HEADER LOGO -->
+  <div class="container">	
+    <div class="logo2">
+      <a href="/home">
+        <img src="/images/mortascreenlogo.gif" width="230" height="53" alt="Mortascreen, the UK's most effective deceased suppression file." />
+      </a>
+    </div>
+      <!-- EGE HEADER LOGO -->
+      <div class="content">
+        <!-- EGE NAV BAR -->
+          <ul class="mainnavigation">
+            <li class="">
+              <a href="/home">Home</a>
+            </li>
+	    <li class="currentpage">
+              <a href="/why">WHY MORTASCREEN?</a>
+	    </li>
+	    <li class="">
+              <a href="/benefits">THE BENEFITS</a>
+	    </li>
+            <li class="">
+              <a href="/solutions">THE ONE STOP SOLUTION</a>
+	    </li>
+	    <li class="">
+              <a href="/who">WHO USES MORTASCREEN?</a>
+	    </li>
+	    <li class="">
+              <a href="/latest-news">LATEST NEWS</a>
+	    </li>
+	    <li class="">
+              <a href="/contact">CONTACT US</a>
+	    </li>
+          </ul>
+        <br />
+      <!-- EGE NAV BAR -->
+      
+    <!-- EGE WHY MAIN PANEL -->
+      <div class="why_mainpanel">
+        <div class="why_maincopy">
+          <!-- EGE WHY MAIN PANEL HEADER -->
+	  <h1>WE'LL GET YOUR DATA OUT OF <span>ANOTHER FINE MESS</span></h1>
+	  <!-- EGE WHY MAIN PANEL HEADER -->
+	      <!-- EGE WHY MAIN PANEL BODY TEXT -->
+                <p>If you're mailing deceased names on your database you're not only wasting money, you're also risking your reputation. Fortunately, there's a simple and exceptionally effective way to remove deceased records – Mortascreen, the UK's original and most comprehensive deceased suppression file.</p>
+                <p>The Mortascreen file is unique and currently contains the names and address details of over 10 million deceased individuals, with around 50,000 new records collected each month.</p>
+                <p>No other file can match Mortascreen for size, accuracy and recency – which is why over 90% of the UK's Top 100 Mailers* rely on it to ensure that their files are free from deceased names.</p>
+                <p class="source">*Source: Neilsen Top 100 mailers 2010</p>
+	      <!-- EGE WHY MAIN PANEL BODY TEXT -->
+	        <!-- EGE WHY MAIN PANEL CONTACT US -->
+                  <div class="contact_us"><a href="/contact">Contact us</a></div> <-- EGE IMAGE COMES THROUGH CSS -->
+	          </div></div>
+	        <!-- EGE WHY MAIN PANEL CONTACT US -->
 
-								<!-- EGE HEADER LOGO -->
-	 <div class="container">	
-
-	
-				<div class="logo2"><a href="/home"><img src="/images/mortascreenlogo.gif" width="230" height="53" alt="Mortascreen, the UK's most effective deceased suppression file." /></a></div>
-								<!-- EGE HEADER LOGO -->
-								
-	<div class="content">
- 
-	  
-	  	
-
-								<!-- EGE NAV BAR -->
-<ul class="mainnavigation">
-<li class=""><a href="/home">Home</a></li>
-				<li class="currentpage">
-            	<a href="/why">WHY MORTASCREEN?</a>
-					</li>
-				<li class="">
-            	<a href="/benefits">THE BENEFITS</a>
-					</li>
-				<li class="">
-            	<a href="/solutions">THE ONE STOP SOLUTION</a>
-					</li>
-				<li class="">
-            	<a href="/who">WHO USES MORTASCREEN?</a>
-					</li>
-				<li class="">
-            	<a href="/latest-news">LATEST NEWS</a>
-					</li>
-				<li class="">
-            	<a href="/contact">CONTACT US</a>
-					</li>
-</ul><br />
-
-							<!-- EGE NAV BAR -->	
-  
-  
-  
-
-
-	  
-
-	 
-
-							<!-- EGE WHY MAIN PANEL -->
-<div class="why_mainpanel">
-<div class="why_maincopy">
-
-								<!-- EGE WHY MAIN PANEL HEADER -->
-	<h1>WE'LL GET YOUR DATA OUT OF <span>ANOTHER FINE MESS</span></h1>
-								<!-- EGE WHY MAIN PANEL HEADER -->
-								
-									<!-- EGE WHY MAIN PANEL BODY TEXT -->
-<p>If you're mailing deceased names on your database you're not only wasting money, you're also risking your reputation. Fortunately, there's a simple and exceptionally effective way to remove deceased records – Mortascreen, the UK's original and most comprehensive deceased suppression file.</p>
-<p>The Mortascreen file is unique and currently contains the names and address details of over 10 million deceased individuals, with around 50,000 new records collected each month.</p>
-<p>No other file can match Mortascreen for size, accuracy and recency – which is why over 90% of the UK's Top 100 Mailers* rely on it to ensure that their files are free from deceased names.</p>
-<p class="source">*Source: Neilsen Top 100 mailers 2010</p>
-									<!-- EGE WHY MAIN PANEL BODY TEXT -->
-
-										<!-- EGE WHY MAIN PANEL CONTACT US -->
-<div class="contact_us"><a href="/contact">Contact us</a></div> <-- EGE IMAGE COMES THROUGH CSS -->
-	</div></div>
-										<!-- EGE WHY MAIN PANEL CONTACT US -->
-
-<div class="clearfloat" ></div> 			<!-- EGE SOME SORT OF SPACER 0px height -->
-
-	
-			
-
-
-							<!-- EGE FOOTER -->
-							
-	<ul class="footernavigation">
-	
-									<!-- EGE FOOTER GREY LINE 1 -->
-<li class="fn1">&nbsp;</li>		
-									<!-- EGE FOOTER GREY LINE 1 -->
-									
-										<!-- EGE FOOTER GREY LINE 2 -->
-				<li class=FN2>
-										<!-- EGE FOOTER GREY LINE 2 -->
-											
-											<!-- EGE FOOTER T&C -->
-            	<a href="/terms">TERMS AND CONDITIONS</a>
-				</li>
-											<!-- EGE FOOTER T&C -->
-				
-												<!-- EGE FOOTER GREY LINE 2 -->
-				<li class=FN3>
-												<!-- EGE FOOTER GREY LINE 2 -->
-
-												<!-- EGE FOOTER PRIVACY -->
-            	<a href="/privacy">Privacy</a>
-				</li>
-</ul><br />
-
-
-<br /><br /><br /><br />
-  <!-- end .content --></div>
-  <!-- end .container --></div>
+              <div class="clearfloat" ></div> <!-- EGE SOME SORT OF SPACER 0px height -->
+                <!-- EGE FOOTER -->
+		<ul class="footernavigation">
+	          <!-- EGE FOOTER GREY LINE 1 -->
+                  <li class="fn1">&nbsp;</li>		
+		  <!-- EGE FOOTER GREY LINE 1 -->
+		    <!-- EGE FOOTER GREY LINE 2 -->
+		      <li class=FN2>
+		    <!-- EGE FOOTER GREY LINE 2 -->
+		      <!-- EGE FOOTER T&C -->
+            	        <a href="/terms">TERMS AND CONDITIONS</a>
+		      </li>
+                      <!-- EGE FOOTER T&C -->
+		        <!-- EGE FOOTER GREY LINE 2 -->
+			<li class=FN3>
+		        <!-- EGE FOOTER GREY LINE 2 -->
+                          <!-- EGE FOOTER PRIVACY -->
+            	          <a href="/privacy">Privacy</a>
+			</li>
+		</ul>
+	          <br />
+	          <br />
+	          <br />
+	          <br />
+	          <br />
+	       </div> <!-- end .content -->
+	 </div> <!-- end .container -->
 </body>
 </html>
